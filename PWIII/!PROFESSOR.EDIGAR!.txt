@@ -1,0 +1,23 @@
+OLÁ, PROFESSOR! 
+
+Peço desculpas pelo design e a falta de criatividade. 
+Infelizmente, gastei meus dois ultimos nêuronios tentando
+entender melhor os conceitos da atividade.
+Estou me esforçando para melhorar nesses aspectos;
+
+----------------------------------------------------------
+
+O trabalho está disposto da seguinte forma:
+
+  Index do framework
+ 
+  Página login.phtml, que é primeira View da aplicação,
+  contando com uma Action do formulário que chama o primeiro
+  loginController, o mesmo, puxa a próxima página:
+  
+  home.phtml, página central, que nos traz mais uma Action,
+  pedindo algumas informações a mais.
+  Logo após, outro Controller que nos leva até a página de 
+  agradecimento.
+  Que, por fim, nos retorna a página inicial, por meio de 
+  mais um controller.
